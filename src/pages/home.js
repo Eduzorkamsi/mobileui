@@ -9,6 +9,7 @@ import Profile3 from "../assets/profile3.png";
 import PersonOutlineIcon from '@material-ui/icons/PersonOutline';
 import ErrorOutlineIcon from '@material-ui/icons/ErrorOutline';
 import { makeStyles } from "@material-ui/core/styles";
+import MenuBar from "../components/menuBar";
 
 const useStyles = makeStyles((theme) => ({
   button: {
@@ -167,6 +168,9 @@ function Home() {
             </Card>
           </div>
         </div>
+      </div>
+      <div className="fourth_slot">
+        <MenuBar/>
       </div>
     </div>
   );

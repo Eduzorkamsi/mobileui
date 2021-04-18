@@ -66,6 +66,14 @@
       margin-left: auto;
   }
 
+  .MuiAppBar-colorPrimary {
+    background-color: #ffffff; 
+}
+
+.MuiAppBar-positionFixed {
+    bottom: 0;
+    top: none;
+}
 
 }
 
