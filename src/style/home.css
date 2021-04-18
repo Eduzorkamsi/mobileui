@@ -1,0 +1,72 @@
+@media only screen and (max-width: 600px) {
+  .home {
+    background: #010a43;
+  }
+
+  .first_slot {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .right {
+    margin-left: auto;
+  }
+
+  .second_slot {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  .top {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+  }
+
+  .bottom {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .third_slot {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  .transaction_details {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+  }
+
+  .sort {
+    display: flex;
+    flex-direction: row;
+  }
+.left_transaction{
+    display: flex;
+    flex-direction: row;
+}
+
+  .transaction_status{
+      display: flex;
+      flex-direction: column;
+      margin-left: 16px;
+  }
+
+  .right_transaction{
+      margin-left: auto;
+  }
+
+
+}
+
+
